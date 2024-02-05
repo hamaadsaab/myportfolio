@@ -17,7 +17,8 @@ export function Hero() {
           <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h1>HAMAAD GHAFAR</h1>
+          <h3 style={{fontSize:'34px'}}>HAMAAD GHAFAR</h3>
+          <p style={{ fontSize: '24px' }}>I am a student of Punjab University College of Information Technology, pursuing a Bachelor of Science in Information Technology (BSIT) in my final year, with a current CGPA of 3.4</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
           <h3>Full Stack Developer</h3>
